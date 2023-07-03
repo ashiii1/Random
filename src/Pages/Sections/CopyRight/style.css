@@ -1,0 +1,15 @@
+.copy-right {
+  padding: 13px 0 14px;
+  background: rgba(16, 20, 24, 0.70);
+  text-align: center;
+  position: relative;
+}
+
+.copy-right p {
+  color: #FFF;
+  font-size: 14px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}

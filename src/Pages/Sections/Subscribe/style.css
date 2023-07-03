@@ -1,0 +1,83 @@
+.subscribe {
+  padding: 50px 0;
+  position: relative;
+}
+
+.subscribe .main__container--flex {
+  justify-content: space-between;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 1064px) {
+  .subscribe .main__container--flex {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.subscribe .text, 
+.subscribe form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.subscribe .text {
+  gap: 18px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .subscribe .text {
+    flex-direction: column;
+  }
+}
+
+.subscribe .text img {
+  max-width: 100%;
+  width: 32px;
+}
+
+.subscribe .text h2 {
+  color: #FFFFFC;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.subscribe form {
+  gap: 28px;
+}
+
+@media (max-width: 768px) {
+  .subscribe form {
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+.subscribe form input {
+  color: #FFFFFC;
+  font-size: 12px;
+  max-width: 100%;
+  width: 407px;
+  height: 55px;
+  padding: 18px 71px 17px 34px;
+  background: transparent;
+  outline: none;
+  border: none;
+  border: 1px solid #FFC;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 155.3%;
+  letter-spacing: 1.56px;
+}
+
+@media (max-width: 768px) {
+  .subscribe form input {
+    width: 307px;
+  }
+}

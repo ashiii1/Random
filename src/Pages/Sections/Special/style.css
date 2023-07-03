@@ -1,0 +1,12 @@
+.speical-section {
+  padding: 50px 0;
+  position: relative;
+  background-color: rgba(16, 20, 24, 0.70);
+}
+
+.special-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 30px;
+  position: relative;
+}

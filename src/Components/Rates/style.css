@@ -1,0 +1,44 @@
+.rate {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+@media (max-width: 768px) {
+  .rate {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.rate img {
+  max-width: 100%;
+  width: 86px;
+}
+
+.rate .info {
+  text-align: center;
+}
+
+.rate .info span {
+  display: block;
+}
+
+.rate .info span:first-child {
+  color: #FFCE6D;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.3%;
+  text-transform: capitalize;
+}
+
+.rate .info span:last-child {
+  color: #FFFFFC;
+  text-align: center;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.3%;
+  text-transform: capitalize;
+}

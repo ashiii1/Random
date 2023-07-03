@@ -1,0 +1,80 @@
+.sub-menu,
+.sub-menu .info,
+.sub-menu .price {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.sub-menu {
+  justify-content: space-between;
+  transition: all .3s;
+}
+
+.sub-menu:hover {
+  color: #101418;
+  background-color: #FFCE6D;
+}
+
+.sub-menu:hover span {
+  color: #101418 !important;
+}
+
+.sub-menu:hover .price span:nth-child(1) {
+  background-color: #101418 !important;
+}
+
+@media (max-width: 768px) {
+  .sub-menu,
+  .sub-menu .info,
+  .sub-menu .price {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+}
+
+.sub-menu:not(:last-of-type) {
+  margin-bottom: 32px;
+}
+
+.sub-menu .info img {
+  max-width: 100%;
+  width: 64px;
+}
+
+.sub-menu .info .text span {
+  display: block;
+  color: white;
+}
+
+.sub-menu .info .text span:nth-child(1) {
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.sub-menu .info .text span:nth-child(2) {
+  color: #FFF;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.sub-menu .price span:nth-child(1) {
+  width: 123px;
+  height: 2px;
+  background-color: #FFCE6D;
+}
+
+.sub-menu .price span:nth-child(2) {
+  color: #FFCE6D;
+  text-align: right;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}

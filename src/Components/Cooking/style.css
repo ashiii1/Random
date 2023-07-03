@@ -1,0 +1,51 @@
+.cooking-content h2 {
+  color: #FFCE6D;
+  font-size: 36px;
+  font-family: 'Dancing Script', cursive;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.3%;
+  letter-spacing: 3.6px;
+}
+
+@media (max-width: 768px) {
+  .cooking-content h2 {
+    margin: auto;
+  }
+}
+
+.cooking-content h3 {
+  color: #FFFFFC;
+  font-size: 30px;
+  font-style: normal;
+  margin-top: 13px;
+  font-weight: 700;
+  line-height: 117.3%;
+  text-transform: capitalize;
+}
+
+.cooking-content p {
+  max-width: 100%;
+  width: 568px;
+  margin: 56px 0;
+  color: #FFFFFC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%;
+  letter-spacing: 1.82px;
+  text-transform: capitalize;
+}
+
+@media (max-width: 768px) {
+  .cooking-content p {
+    margin: 56px auto 50px;
+    width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  .cooking-content {
+    text-align: center;
+  }
+}

@@ -1,0 +1,13 @@
+.rates {
+  padding: 50px 0;
+  background-color: rgba(16, 20, 24, 0.70);
+  position: relative;
+}
+
+.rate-boxs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 150px;
+}

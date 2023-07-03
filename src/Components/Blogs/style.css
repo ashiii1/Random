@@ -1,0 +1,48 @@
+.blogs .blog-boxs .box {
+  background: rgba(16, 20, 24, 0.70);
+  position: relative;
+}
+
+.blogs .blog-boxs .box img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.blogs .blog-boxs .box .info {
+  padding: 38px 45px;
+}
+
+.blogs .blog-boxs .box .info h3 {
+  color: #FFFFFC;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.3%;
+  text-transform: capitalize;
+}
+
+.blogs .blog-boxs .box .info p {
+  color: #FFFFFC;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%;
+  text-transform: capitalize;
+  margin-top: 16px;
+  margin-bottom: 35px;
+}
+
+.blogs .blog-boxs .box .info button {
+  color: #FFFFFC;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%;
+  letter-spacing: 1.82px;
+  text-transform: capitalize;
+  border: none;
+  outline: none;
+  background: transparent;
+  cursor: pointer;
+  border-bottom: 1px solid #FFCE6D;
+}

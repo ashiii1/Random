@@ -1,0 +1,41 @@
+.card {
+  position: relative;
+  height: 455px;
+  border: 1px dashed #FFCE6D;
+  background: rgba(160, 128, 64, 0.30);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 15px;
+  text-align: center;
+}
+
+.card img {
+  max-width: 100%;
+  width: 80px;
+}
+
+.card h3 {
+  max-width: 100%;
+  color: #FFFFFC;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 117.3%;
+  text-transform: capitalize;
+}
+
+.card p {
+  max-width: 100%;
+  width: 268px;
+  height: 128px;
+  color: #FFFFFC;
+  text-align: justify;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 155.3%;
+  letter-spacing: 1.82px;
+  text-transform: capitalize;
+}

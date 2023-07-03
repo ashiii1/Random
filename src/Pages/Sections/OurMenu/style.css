@@ -1,0 +1,32 @@
+.our-menu {
+  padding: 50px 0;
+  position: relative;
+}
+
+.our-menu .menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+@media (max-width: 1115px) {
+  .our-menu .menu {
+    gap: 32px;
+  }
+}
+
+@media (max-width: 1115px) {
+  .our-menu .menu .box {
+    max-width: 100%;
+    width: 80%;
+  }
+}
+
+@media (max-width: 768px) {
+  .our-menu .menu .box {
+    max-width: 100%;
+    width: 100%;
+  }
+}

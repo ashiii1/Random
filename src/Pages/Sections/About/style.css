@@ -1,0 +1,19 @@
+.about-us {
+  position: relative;
+  padding: 50px 0;
+}
+
+.about-us .parent-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (max-width: 1115px) {
+  .about-us .parent-div {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+/* .about-us */

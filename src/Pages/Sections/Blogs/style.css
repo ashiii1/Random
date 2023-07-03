@@ -1,0 +1,11 @@
+.blogs {
+  padding: 112px 0 72.28px;
+  overflow: hidden;
+  position: relative;
+}
+
+.blogs .blog-boxs {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}

@@ -1,0 +1,23 @@
+.floatBtn {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 22px;
+  color: #FFF;
+  border: none;
+  cursor: pointer;
+  background-color: #A08040;
+  z-index: 1000;
+}
+
+@media (max-width: 768px) {
+  .floatBtn {
+    width: 55px;
+    height: 55px;
+    bottom: 50px;
+    right: 30px;
+  }
+}

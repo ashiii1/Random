@@ -1,0 +1,31 @@
+.landing-content {
+  display: grid;
+  place-items: center;
+}
+
+.landing-content h1 {
+  max-width: 100%;
+  width: 366px;
+  color: #FFFCCC;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media (max-width: 768px) {
+  .landing-content h1 {
+    font-size: 40px;
+    width: 100%;
+  }
+}
+
+.landing-content p {
+  max-width: 100%;
+  color: #FFF;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 117.3%;
+  margin: 15px 0 50px;
+}

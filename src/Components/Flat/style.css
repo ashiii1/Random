@@ -1,0 +1,42 @@
+.flat-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+@media (max-width: 1115px) {
+  .flat-content {
+    flex-wrap: wrap;
+  }
+}
+
+.flat-content .content {
+  text-align: center;
+}
+
+.flat-content h2 {
+  color: #FFFFFC;
+  font-size: 36px;
+  font-family: 'Dancing Script', cursive;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3.6px;
+}
+
+.flat-content p {
+  color: #FFCE6D;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin: 40px 0 50px;
+  letter-spacing: 0.64px;
+}
+
+@media (max-width: 992px) {
+  .flat-content img {
+    display: none;
+  }
+}

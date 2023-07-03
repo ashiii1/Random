@@ -1,0 +1,18 @@
+.cooking {
+  position: relative;
+  padding: 50px 0;
+}
+
+.cooking .parent-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+@media (max-width: 1115px) {
+  .cooking .parent-div {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
