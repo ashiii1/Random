@@ -1,25 +1,28 @@
-import React from 'react'
+import React from 'react';
 import "./style.css";
 import TitleSection from '../../../mock/SpecialCard/Title';
-import BLOGS_DATA from '../../../mock/blogs';
-import BlogsComponent from '../../../Components/Blogs';
+import VIDEOS_DATA from '../../../mock/videos';
+import VideoCard from '../../../Components/VideoCard';
 import Container from '../../../Components/Container/Container1';
 
 const Blogs = () => {
   return (
     <div className='blogs' id='blogs'>
       <Container>
-        <TitleSection title="Blogs" subTitle="words from our food lovers"/>
+        <TitleSection title="Videos" subTitle="Peanut Butter Stories by Pradeep Dhaka" />
         <div className="blog-boxs">
-          {
-            BLOGS_DATA.map(({id, image, title, description, buttonText}) => (
-              <BlogsComponent key={id} blogImage={image} title={title} description={description} buttonText={buttonText} />
-            ))
-          }
+          {VIDEOS_DATA.map(({ id, videoUrl, title, description }) => (
+            <VideoCard
+              key={id}
+              videoUrl={videoUrl}
+              title={title}
+              description={description}
+            />
+          ))}
         </div>
       </Container>
     </div>
-  )
-}
+  );
+};
 
-export default Blogs
+export default Blogs;

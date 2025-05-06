@@ -1,0 +1,22 @@
+.video-card {
+    background-color: #fff;
+    padding: 16px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .video-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .video-card h3 {
+    font-size: 18px;
+    margin-top: 12px;
+  }
+  
+  .video-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  

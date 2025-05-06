@@ -9,15 +9,15 @@ const RATES_DATA = [
     image: Delicacy,
     type: "Delicacy",
   },
-  {
-    id: 2,
-    rate: '10+',
-    image: renowedChefs,
-    type: "renowed chefs",
-  },
+  // {
+  //   id: 2,
+  //   rate: '10+',
+  //   image: renowedChefs,
+  //   type: "renowed chefs",
+  // },
   {
     id: 3,
-    rate: '30+',
+    rate: '3000+',
     image: Members,
     type: "Members",
   },
