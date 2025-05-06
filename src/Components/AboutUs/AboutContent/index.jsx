@@ -6,14 +6,10 @@ const AboutContent = () => {
   return (
     <div className='about-content'>
       <h2>About Us</h2>
-      <h3>Discover the taste of worldclass vegan dishes from the kitchen of Go Green Dine</h3>
+      <h3>Welcome to the world of Pradeep Dhaka's Signature Peanut Butter — where taste meets health</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin hendrerit a amet viverra. 
-        Nunc pretium in amet at mattis cras. Quisque commodo mattis ornare a nec odio. Pulvinar orci, 
-        egestas eget nulla duis at iaculis nunc, elit. Nibh auctor purus nunc tellus pellentesque nibh 
-        mattis. Malesuada integer consectetur. Imperdiet aliquam quam mauris semper suscipit. Molestie 
-        maecenas interdum pharetra id velit sed nec.tetur sit sagittis pretium eget vitae semper pellentesque 
-        pellentesque.
+      Using 100% natural, vegan, and protein-rich ingredients. From classic creamy and crunchy to bold flavors like chocolate swirl, honey roasted, and spicy sriracha, our peanut butter is free from preservatives and perfect for fueling your day.
+Enjoy the convenience of fast and reliable home delivery, bringing your favorite peanut butter straight to your door. Taste the difference and feel the energy!
       </p>
       <Button btn="Read more"/>
     </div>

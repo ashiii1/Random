@@ -2,7 +2,7 @@ import React from 'react'
 import "./style.css";
 import AboutContent from '../../../Components/AboutUs/AboutContent';
 import AboutImage from '../../../Components/AboutUs/AboutImage';
-import ImageSrc from "../../../assest/about-img.png";
+import ImageSrc from "../../../assest/pone.png";
 import Container from '../../../Components/Container/Container1';
 
 const AboutUs = () => {

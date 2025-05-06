@@ -19,7 +19,7 @@ const Header = () => {
         </ul>
       </div>
       <div className="btn">
-        <button>PeanutButter</button>
+        <button>Home Delivery</button>
       </div>
     </header>
   )
