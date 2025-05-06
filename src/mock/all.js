@@ -1,12 +1,12 @@
 // mock/all.js
-import img1 from '../assest/blogs-1.png';
-import img2 from '../assest/blogs-2.png';
-import img3 from '../assest/blogs-3.png';
-import img4 from '../assest/blogs-1.png';
-import img5 from '../assest/blogs-2.png';
-import img6 from '../assest/blogs-3.png';
-import img7 from '../assest/blogs-1.png';
-import img8 from '../assest/blogs-2.png';
+import img1 from '../assest/peanutone.jpg';
+import img2 from '../assest/peanuttwo.jpg';
+import img3 from '../assest/peanutthree.jpg';
+import img4 from '../assest/peanutfour.jpg';
+import img5 from '../assest/peanutfive.jpg';
+import img6 from '../assest/peanutnine.jpg';
+import img7 from '../assest/peanutseven.jpg';
+import img8 from '../assest/peanuteight.jpg';
 
 
 export const foodItems = [
