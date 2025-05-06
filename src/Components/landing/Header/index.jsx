@@ -22,7 +22,6 @@ const Header = () => {
         </ul>
       </div>
       <div className="btn">
-        <button>Home Delivery</button>
         <div className="cart-icon">🛒 {itemCount}</div>
       </div>
       <div className="btn">

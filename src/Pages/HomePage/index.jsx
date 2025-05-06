@@ -21,9 +21,9 @@ const HomePage = () => {
       <Landing />
       <FloatingButton />
       <AboutUs />
+      <FoodMenu/>
       <Blogs />
       <Speical />
-      <FoodMenu/>
       <OurMenu />
       <Flat />
       <Cooking />
