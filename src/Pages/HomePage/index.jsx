@@ -13,6 +13,7 @@ import Footer from '../Sections/Footer';
 import Subscribe from '../Sections/Subscribe';
 import CopyRight from '../Sections/CopyRight';
 import FloatingButton from '../Sections/FloatingButton';
+import FoodMenu from '../FoodPage/FoodPage';
 
 const HomePage = () => {
   return (
@@ -20,13 +21,14 @@ const HomePage = () => {
       <Landing />
       <FloatingButton />
       <AboutUs />
+      <Blogs />
       <Speical />
+      <FoodMenu/>
       <OurMenu />
       <Flat />
       <Cooking />
       <Rates />
       <Reviews />
-      <Blogs />
       <Footer />
       <Subscribe />
       <CopyRight />

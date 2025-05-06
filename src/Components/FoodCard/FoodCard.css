@@ -1,0 +1,54 @@
+/* src/Components/FoodCard.css */
+.food-card {
+    background-color: #1e1e1e;
+    border-radius: 12px;
+    padding: 16px;
+    color: white;
+    width: 260px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .food-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .food-img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .food-info {
+    margin-top: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    text-align: center;
+  }
+  
+  .food-info h3 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .food-info p {
+    font-size: 16px;
+    color: #ccc;
+  }
+  
+  .food-info button {
+    background-color: #a08040;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .food-info button:hover {
+    background-color: #b99453;
+  }
+  
