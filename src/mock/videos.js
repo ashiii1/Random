@@ -7,59 +7,55 @@ import video6 from "../assest/videosix.mp4";
 import video7 from "../assest/videoseven.mp4";
 import video8 from "../assest/videoten.mp4";
 
-
-
-
 const VIDEOS_DATA = [
   {
     id: 1,
     videoUrl: video1,
     title: "How It All Started",
-    description: "Pradeep Dhaka shares the story behind his peanut butter brand.",
+    description: "Discover the passion behind a brand that promotes natural health through peanut butter.",
   },
   {
     id: 2,
     videoUrl: video2,
     title: "Making Process",
-    description: "See how the peanut butter is made with love and hygiene.",
+    description: "Made from premium peanuts without preservatives — full of protein and fiber.",
   },
   {
     id: 3,
     videoUrl: video3,
     title: "Nutritional Facts",
-    description: "Health benefits and nutrition breakdown of the peanut butter.",
+    description: "Rich in healthy fats and vitamins, great for fitness and energy.",
   },
   {
     id: 4,
     videoUrl: video4,
     title: "Taste Test",
-    description: "Honest reactions from customers who tried the peanut butter.",
+    description: "A tasty, nutritious spread that supports muscle recovery and heart health.",
   },
   {
     id: 5,
     videoUrl: video5,
     title: "Customer Reviews",
-    description: "Why people are switching to Pradeep's peanut butter.",
+    description: "People love it for its taste and how it helps them stay full and energized.",
   },
   {
     id: 6,
     videoUrl: video6,
-    title: "Packaging",
-    description: "Eco-friendly packaging process shown in detail.",
+    title: "Eco-Friendly Packaging",
+    description: "Healthier for you and the planet with recyclable, BPA-free jars.",
   },
   {
     id: 7,
     videoUrl: video7,
-    title: "Packaging",
-    description: "Eco-friendly packaging process shown in detail.",
+    title: "Fitness Fuel",
+    description: "Perfect for athletes — high in protein, no added sugar or oils.",
   },
   {
     id: 8,
     videoUrl: video8,
-    title: "Packaging",
-    description: "Eco-friendly packaging process shown in detail.",
+    title: "Everyday Energy",
+    description: "A quick, healthy snack to fuel your mornings or post-workout recovery.",
   }
-  
 ];
 
 export default VIDEOS_DATA;

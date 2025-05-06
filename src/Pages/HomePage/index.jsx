@@ -23,10 +23,11 @@ const HomePage = () => {
       <AboutUs />
       <FoodMenu/>
       <Blogs />
+      <Cooking />
+
       <Speical />
       <OurMenu />
       <Flat />
-      <Cooking />
       <Rates />
       <Reviews />
       <Footer />

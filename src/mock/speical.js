@@ -5,20 +5,20 @@ import Restaurant from "../assest/restaurant.png";
 const SPECIAL_DATA = [
   {
     id: 1,
-    title: 'Fresh food',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin hendrerit a amet viverra. Nunc pretium in amet at mattis cras. ',
+    title: 'Fresh Ingredients',
+    description: 'We source the finest peanuts to create rich, creamy peanut butter that’s full of flavor and nutrients. You’ll taste the difference in every bite!',
     image: OrangeJuice,
   },
   {
     id: 2,
-    title: 'skilled Chef',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin hendrerit a amet viverra. Nunc pretium in amet at mattis cras. ',
+    title: 'Skilled Craftsmen',
+    description: 'Our peanut butter is crafted with care by experienced chefs who understand the importance of quality and taste in every jar.',
     image: Cefe1,
   },
   {
     id: 3,
-    title: 'Exotic dishes',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sollicitudin hendrerit a amet viverra. Nunc pretium in amet at mattis cras. ',
+    title: 'Eco-friendly Production',
+    description: 'Our production process is sustainable, ensuring that every jar of peanut butter is made with minimal environmental impact while maintaining top-notch quality.',
     image: Restaurant,
   },
 ];
