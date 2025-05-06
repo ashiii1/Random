@@ -8,12 +8,26 @@ header .links {
 header {
   color: white;
   max-width: 100%;
-  width: 988px;
   background: #101418;
   gap: 20px;
-  position: relative;
-  margin: 0 auto 100px;
+  position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+  
+  
 }
+
+header .links img {
+  width: 120px;              /* or whatever width looks best */
+  height: 60px;              /* limit height to crop top and bottom */
+  object-fit: cover;         /* ensures the image fills the box */
+  object-position: center;   /* centers the visible portion */
+  overflow: hidden;
+}
+
 
 @media (max-width: 845px) {
   header {
