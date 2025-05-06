@@ -1,15 +1,14 @@
-import video1 from "../assest/blogs-1.png";
-import video2 from "../assest/blogs-2.png";
-import video3 from "../assest/blogs-3.png";
-import video4 from "../assest/blogs-1.png";
-import video5 from "../assest/blogs-2.png";
-import video6 from "../assest/blogs-3.png";
-import video7 from "../assest/blogs-1.png";
-import video8 from "../assest/blogs-2.png";
-import video9 from "../assest/blogs-3.png";
-import video10 from "../assest/blogs-1.png";
-import video11 from "../assest/blogs-2.png";
-import video12 from "../assest/blogs-3.png";
+import video1 from "../assest/videoone.mp4";
+import video2 from "../assest/videotwo.mp4";
+import video3 from "../assest/videothree.mp4";
+import video4 from "../assest/videofour.mp4";
+import video5 from "../assest/videofive.mp4";
+import video6 from "../assest/videosix.mp4";
+import video7 from "../assest/videoseven.mp4";
+import video8 from "../assest/videoten.mp4";
+
+
+
 
 const VIDEOS_DATA = [
   {
@@ -51,39 +50,16 @@ const VIDEOS_DATA = [
   {
     id: 7,
     videoUrl: video7,
-    title: "Storage Tips",
-    description: "Best practices to store and preserve peanut butter.",
+    title: "Packaging",
+    description: "Eco-friendly packaging process shown in detail.",
   },
   {
     id: 8,
     videoUrl: video8,
-    title: "Fun Recipes",
-    description: "Creative and fun recipes using peanut butter.",
-  },
-  {
-    id: 9,
-    videoUrl: video9,
-    title: "Behind the Scenes",
-    description: "A look at the factory and team behind the scenes.",
-  },
-  {
-    id: 10,
-    videoUrl: video10,
-    title: "Why Choose Us?",
-    description: "What makes Pradeep’s brand unique from others?",
-  },
-  {
-    id: 11,
-    videoUrl: video11,
-    title: "Brand Vision",
-    description: "Pradeep talks about future plans and goals.",
-  },
-  {
-    id: 12,
-    videoUrl: video12,
-    title: "Thank You Message",
-    description: "A thank you note from Pradeep to all customers and supporters.",
-  },
+    title: "Packaging",
+    description: "Eco-friendly packaging process shown in detail.",
+  }
+  
 ];
 
 export default VIDEOS_DATA;
